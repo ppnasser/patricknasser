@@ -75,32 +75,29 @@
     {{ $person_page.Content }}
 
     <div class="row">
-
-      {{ with $person.interesses }}
+	
+	<div class="col-md-8">
+        <h3>Interesses</h3>
+	</div>
+	
+	 {{ with $person.interesses }}
       <div class="col-md-5">
         <h3>{{ i18n "interesses" | markdownify }}</h3>
-        <ul class="ul-interests">
+        <ul class="ul-interesses">
           {{ range . }}
           <li>{{ . | markdownify | emojify }}</li>
           {{ end }}
         </ul>
       </div>
       {{ end }}
-
-      {{ with $person.variu }}
-      <div class="col-md-5">
-        <h3>{{ i18n "variu" | markdownify }}</h3>
-        <ul class="ul-variuu">
-          {{ range . }}
-          <li>{{ . | markdownify | emojify }}</li>
-          {{ end }}
-        </ul>
-      </div>
-      {{ end }}
-      
-      {{ with $person.educação }}
-      <div class="col-md-7">
-        <h3>{{ i18n "educação" | markdownify }}</h3>
+	
+	
+    <div class="col-md-8">
+        <h3>Educação</h3>
+	</div>
+      {{ with $person.educacao }}
+      <div class="col-md-8">
+        <h3>{{ i18n "educacao" | markdownify }}</h3>
         <ul class="ul-edu fa-ul">
           {{ range .courses }}
           <li>
@@ -108,13 +105,18 @@
             <div class="description">
               <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
               <p class="institution">{{ .institution }}</p>
-            </div>
           </li>
           {{ end }}
         </ul>
       </div>
       {{ end }}
+	  
+	  
+	  
+
+      </div>
 
     </div>
   </div>
 </div>
+
