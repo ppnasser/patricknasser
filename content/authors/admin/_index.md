@@ -64,4 +64,5 @@ user_groups:
 - Visitors
 ---
 
-Patrick Nasser é economista e atua como consultor no setor público. Tem interesse em microeconometria, economia regional e urbana e ciência de dados aplicada para ciências socias. Nesta página procura expressar opiniões e assuntos/projetos pertinentes para o interesse público bem como para outros profissionais da área.
+Patrick Nasser é economista e atua como consultor no setor público. Tem interesse em microeconometria, economia regional e urbana e ciência de dados aplicada para ciências socias. 
+Nesta página procura expressar opiniões e assuntos/projetos pertinentes para o interesse público bem como para outros profissionais da área.
