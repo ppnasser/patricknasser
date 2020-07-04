@@ -20,14 +20,12 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: Economista pela USP, entusiasta da ciência de dados e naturalmente curioso.
 
-# interests:
-Interesses:
+interests:
 - Microeconometria
 - Ciência de dados
 - Open Data
 
-# education:
-Educação:
+education:
   courses:
   - course: Bacharel em Ciências Econômicas
     institution: Universidade de São Paulo
@@ -43,7 +41,7 @@ social:
   link: '#contact'  # For a direct email link, use "patricknasser@gmail.com".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/patrickpnasser
 # - icon: google-scholar
  # icon_pack: ai
   # link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
@@ -61,10 +59,11 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+# user_groups:
+# - Researchers
+# - Visitors
 ---
 
 Patrick Nasser é economista e atua como consultor no setor público. Tem interesse em microeconometria, economia regional e urbana e ciência de dados aplicada para ciências socias. 
+
 Nesta página procura expressar opiniões e assuntos/projetos pertinentes para o interesse público bem como para outros profissionais da área.
