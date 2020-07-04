@@ -50,9 +50,9 @@ social:
   link: https://github.com/ppnasser
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+ - icon: cv
+   icon_pack: ai
+   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -64,6 +64,6 @@ email: ""
 # - Visitors
 ---
 
-Patrick Nasser é economista e atua como consultor no setor público. Tem interesse em microeconometria, economia regional e urbana e ciência de dados aplicada para ciências socias. 
+Patrick Nasser é economista e atua como consultor no setor público. Tem interesse em microeconometria, economia regional e urbana e ciência de dados para ciências socias aplicadas. 
 
 Nesta página procura expressar opiniões e assuntos/projetos pertinentes para o interesse público bem como para outros profissionais da área.
