@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Patrick Parente Nasser
+title: Patrick Parente Nasse
 
 # Username (this should match the folder name)
 authors:
