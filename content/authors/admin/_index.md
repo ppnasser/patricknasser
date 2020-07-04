@@ -24,6 +24,10 @@ interesses:
 - Microeconometria
 - Ciência de dados
 - Open Data
+variu:
+- Microeconometria
+- Ciência de dados
+- Open Data
 educação:
   courses:
   - course: Bacharel em Ciências Econômicas
