@@ -87,6 +87,17 @@
       </div>
       {{ end }}
 
+      {{ with $person.variu }}
+      <div class="col-md-5">
+        <h3>{{ i18n "variu" | markdownify }}</h3>
+        <ul class="ul-variuu">
+          {{ range . }}
+          <li>{{ . | markdownify | emojify }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+      
       {{ with $person.educação }}
       <div class="col-md-7">
         <h3>{{ i18n "educação" | markdownify }}</h3>
