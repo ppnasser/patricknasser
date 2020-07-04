@@ -30,6 +30,12 @@ education:
   - course: Bacharel em Ciências Econômicas
     institution: Universidade de São Paulo
     year: 2019
+ 
+ teste:
+  courses:
+  - course: Bacharel em Ciências Econômicas
+    institution: Universidade de São Paulo
+    year: 2019
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
