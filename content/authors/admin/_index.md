@@ -20,12 +20,14 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: Economista pela USP, entusiasta da ciência de dados e naturalmente curioso.
 
-interests:
+# interests:
+Interesses:
 - Microeconometria
 - Ciência de dados
 - Open Data
 
-education:
+# education:
+Educação:
   courses:
   - course: Bacharel em Ciências Econômicas
     institution: Universidade de São Paulo
