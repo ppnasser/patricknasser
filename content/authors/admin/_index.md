@@ -26,6 +26,8 @@ interests:
 - Open Data
 
 education:
+name: "teste"
+name = "teste"
   courses:
   - course: Bacharel em Ciências Econômicas
     institution: Universidade de São Paulo
