@@ -9,7 +9,6 @@ tags:
 categories:
 - Estatística
 
-readingtime: 20
 date: "2020-04-04T00:00:00Z"
 lastmod: "2020-04-04T00:00:00Z"
 featured: false
