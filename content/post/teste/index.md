@@ -34,15 +34,4 @@ image:
 projects: []
 ---
 
-teste
-
-```
- [chart] 
- #Using JSON to generate a chart
- id = "myChart2"
- json="../json/1_obitos_pm.json"
-```
-
-
-{{< chart id="1_obitos_pm" json="/json/1_obitos_pm.json" >}}
 
