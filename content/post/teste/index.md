@@ -34,4 +34,4 @@ image:
 projects: []
 ---
 
-
+{{< plotly-chart 1_reducao_neonatal >}}
