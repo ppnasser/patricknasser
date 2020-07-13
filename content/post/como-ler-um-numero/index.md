@@ -61,37 +61,6 @@ Ao mesmo tempo, o Brasil, que apresentava uma taxa de 18,3 recém nascidos morto
 
 {{< plotly-chart 1_mortalidade_neonatal >}}
 
-Esse caso ilustra que a interpretação da realidade por meio dos números/indicadores está longe de ser trivial. É muito difícil para um país com mortalidade muito baixa, como a Noruega, reduzir ainda mais este indicador, afinal, algum grau de mortes sempre será esperado. Já para o Brasil, o resultado é pode ser considerado ainda mundo longe do ideal, uma vez que a redução da mortalidade neonatal não está acompanhando a velocidade da tecnologia disponível [França, E. e Lansky, S (2016)](http://www.abep.org.br/publicacoes/index.php/anais/article/download/1763/1723).
-
-Isso significa que indicadores são ferramentas ruins? É claro que não! Indicadores são essenciais por conta de sua comparabilidade. Comparar indicadores nos permite avaliar desempenho e estabelecer metas, pois colocamos um mesmo fenômeno (no caso anterior mortes neonatais) sobre uma mesma régua (mortos por 100.000 nascidos com até 27 dias) para diferentes países.
-
-Outra analogia possível para a comparação de indicadores é enxerga-los como fotografias de cenários diferentes feitas por uma mesma câmera. Dessa forma, analisar o comportamento de um indicador no tempo seria como ver uma foto depois da outra de maneira a construir um filme do fenômeno que queremos analisar.
-
-Mas é verdade que uma foto ou filme tem seus limites. Por mais seja tirada por uma mesma câmera, não podemos esquecer que fotografar um país nórdico é muito diferente de fotografar um país latino tropical. Saber que foram assassinadas 272 pessoas por 100.000 habitantes no Vaticano em 1998 é uma fotografia interessante, porém pouco lúdica se desconsiderarmos quantas pessoas tiveram que morrer para que esta marca fosse atingida.
-
-Por conta disso, uma análise de como funciona a formação dos indicadores é sempre importante antes de sua interpretação para que não acabemos em discursos que desvirtuem a compreensão de um fenômeno.
-
-As estatísticas oficiais do coronavirus no Brasil são, infelizmente, um exemplo ótimo de como as fotografias podem nos confundir. Frente 65.487 mortes confirmadas por coronavirus ([dado de 06/07/2020](https://covid.saude.gov.br/)), por exemplo, foram muitas as narrativas falhas que se construíram, principalmente, para minimizar a gravidade da situação sanitária.
-
-Um exemplo clássico está na minimização da pandemia com narrativas fracas, como "a pandemia no Brasil não está tão grave como em outros países, pois temos uma proporção de mortes por milhão baixa".
-
-Como toda a narrativa ingênua ou desinformava, essa interpretação parte de um fato real , que o Brasil possuí uma taxa de mortos por milhão, em geral, bem menor do que os países europeus, e chega à uma conclusão errada, a de que, por conta disso, a pandemia está sendo mais tranquila no Brasil
-
-O equívoco desse raciocínio tem raízes semelhantes a ambos os problemas com os números do Vaticano ou da mortalidade neonatal: uma má interpretação dos números que formam o indicador com falta de conhecimento sobre o processo que esses dados nos descrevem.
-
-Vamos fazer um experimento mental aqui sobre como funciona a disseminação de uma doença. Sem mecanismos de controle, espera-se que uma pessoa infectada com o coronavirus espalhe o mesmo, em média, para outras três FONTE, chamamos este número de **taxa de reprodução** da doença que proporciona o chamado **crescimento exponencial**. 
-
-Para entender o conceito de **crescimento exponencial** imagine que em um país fictício uma pessoa traga o vírus que contraiu em alguma viagem para o exterior. Essa pessoa, para facilitar, passará o vírus para mais 3 pessoas, totalizando 4 infectados. Cada uma dessa pessoas passaram para mais três, infectando assim mais nove já que 3x3 = 9 = 3². Em números,  temos que a evolução dos novos infectados que segue uma régua parecida com [$1, 3, 9, 27, 81, 243, 729...$] ou de forma equivalente [$3^0,3^1,3^2,3^3,3^4,3^5,3^6...$].
-
-Se quisermos ver o acumulado dos que já foram infectados podemos fazer [$1, 4, 13,  40...$] que equivale à [$1, 1+3, 1+3+9, 1+3+9+27....$] ou [$3^0, 3^0+3^1, 3^0+3^1+3^2, 3^0+3^1+3^2$]
-
-Suporemos agora, para facilitar o exemplo, que as infecções sejam diárias (no "mundo real" existe uma janela entre quando a pessoa é infectada e quando passa a transmitir o vírus) e que uma parcela fixa da população morra ao ser infectada. Para facilitar,  que 1% dos infectados em média venham à óbito e que ao invés de uma pessoa contaminar outras três, contaminará duas.
-
-{{< plotly-chart 1_infectados >}}
-
-
-
-{{< plotly-chart 1_obitos >}}
 
 
 
