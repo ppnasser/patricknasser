@@ -64,21 +64,14 @@ Ao mesmo tempo, o Brasil, que apresentava uma taxa de 18,3 recém nascidos morto
 
 
 
-Imaginemos agora que estamos olhando três países com **populações totais diferentes**, mas que **todo o resto seja igual**:  como composição da população, riqueza, problemas sociais, e, principalmente, que um viajante trouxe o vírus o mesmo dia. em cada um desses lugares.
-
-A população do **País A** é de 100 milhões de pessoas, a do **País B** 200 milhões e, por fim, do **País C** 800 milhões.
-
+Imagine
 A conta do indicador de óbitos por milhão para cada instante no tempo é feita da seguinte forma: 
 
-<p align=center>$\frac{ÓbitosAcumulados}{PopulaçãoTotal}. 1.000.000$</p>
+
 
 {{< plotly-chart 1_obitos_pm >}} 
 
-Ou seja, sabemos que o indicador para o **País A** será sempre  $\frac{ÓbitosAcumulados}{100}$ o do **País B** $\frac{ÓbitosAcumulados}{200}$ e o **País C** $\frac{ÓbitosAcumulados}{800}$. Isso significa que, como os óbitos são iguais em nosso exemplo, os Países **B** e **C** terão uma taxa respectivamente sempre 2x e 8x menor do que a do País A **simplesmente porque suas populações são maiores** apesar de terem a mesma regra de dispersão do vírus e, consequentemente o mesmo número de óbitos! 
-
-O que isso nos diz sobre as taxas de morte por milhão na pandemia? Que são inúteis? De forma alguma! São uma forma indicador importante para sabermos o grau de devastação como proporção da população do país, mas não nos dizem necessariamente sobre o desempenho no controle da disseminação da doença uma vez que em todos os países de nosso exemplo foram mortos o mesmo número de indivíduos.
-
-De fato, o esforço das medidas de contenção na pandemia são para reduzir a taxa de reprodutibilidade do vírus e frear a velocidade de disseminação da doença. Medidas de distanciamento social, por exemplo, buscam fazer com que um infectado atinja menos pessoas do que atingiria em média. Para frear o crescimento exponencial uma política eficiente de saúde teria de conseguir essa taxa inferior a 1 FONTE. 
+Ou seja, sabemos que o indicador para o **País A** será sempre reprodutibilidade do vírus e frear a velocidade de disseminação da doença. Medidas de distanciamento social, por exemplo, buscam fazer com que um infectado atinja menos pessoas do que atingiria em média. Para frear o crescimento exponencial uma política eficiente de saúde teria de conseguir essa taxa inferior a 1 FONTE. 
 
 ### Causa,  correlação e a discriminação
 
