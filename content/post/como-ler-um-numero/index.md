@@ -15,9 +15,6 @@ featured: false
 draft: false
 plotly: true
 ---
-{{< load-plotly >}}
-{{< plotly 1_obitos_pm.json >}}
-
 Em 1998, a cidade do Vaticano registrou um taxa de homicídio de 256 mortes por 100.000 habitantes.
 
 Para se ter um comparativo, no mesmo ano no Brasil, um país violento, esta taxa foi de aproximadamente 26 por 100.000.
