@@ -24,7 +24,7 @@ Para se ter um comparativo, no mesmo ano no Brasil, um país violento, esta taxa
 
 
 
-Quem não percebeu o detalhe pode estar se perguntando nesse momento que tragédia ou atentado ocorreu na pequena Cidade-Estado para registar essa mortalidade de guerra. Na verdade, ocorreu apenas um evento: [um guarda local cometeu um crime passional, matando duas pessoas](https://www.irishtimes.com/news/vatican-closes-swiss-guard-case-1.150637).
+Quem não percebeu o detalhe pode estar se perguntando nesse momento que tragédia ou atentado ocorreu na pequena Cidade-Estado para registrar essa mortalidade de guerra. Na verdade, ocorreu apenas um evento: [um guarda local cometeu um crime passional, matando duas pessoas](https://www.irishtimes.com/news/vatican-closes-swiss-guard-case-1.150637).
 
 A assustadora taxa de 256 por 100.000 foi alcançada  porque o Vaticano possuía somente 782 moradores na época: 2/782 $\approx$ 256/100.000 habitantes.
 
@@ -92,7 +92,7 @@ As estatísticas oficiais do coronavirus no Brasil são, infelizmente, um exempl
 
 Um exemplo clássico está na minimização da pandemia com narrativas fracas, como "a pandemia no Brasil não está tão grave como em outros países, pois temos uma proporção de mortes por milhão baixa".
 
-Como toda a narrativa ingênua ou desinformativa, essa interpretação parte de um fato real - que o Brasil possuí uma taxa de mortos por milhão, em geral, bem menor do que os países europeus - e chega a uma conclusão errada: a de que, por conta disso, a pandemia estaria sendo tranquila no Brasil.
+Como toda a narrativa ingênua ou desinformativa, essa interpretação parte de um fato real - que o Brasil possui uma taxa de mortos por milhão, em geral, bem menor do que os países europeus - e chega a uma conclusão errada: a de que, por conta disso, a pandemia estaria sendo tranquila no Brasil.
 
 <img src="https://media1.tenor.com/images/e3103c9605eb280b0b16c3246bc066a7/tenor.gif?itemid=11599212" style="zoom:80%;" />
 
