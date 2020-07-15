@@ -9,8 +9,8 @@ tags:
 categories:
 - Estatística
 
-date: "2020-04-15T00:00:00Z"
-lastmod: "2020-04-15T00:00:00Z"
+date: "2020-07-15T00:00:00Z"
+lastmod: "2020-07-15T00:00:00Z"
 featured: false
 draft: false
 ---
