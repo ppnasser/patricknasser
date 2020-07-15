@@ -1,7 +1,7 @@
 ---
 title: 'Como ler um número?'
-subtitle: 'Parte I - Indicadores e a pandemia.'
-summary: Parte I - Indicadores e a pandemia.
+subtitle: 'Uma reflexão sobre os números que você vê na TV ao tomar café.'
+summary: Uma reflexão sobre os números que você vê na TV ao tomar café.
 authors:
 - admin
 tags:
@@ -88,9 +88,9 @@ O equívoco desse raciocínio tem raízes semelhantes a ambos os problemas com o
 
 Vamos fazer um experimento mental aqui sobre como funciona a disseminação de uma doença. Sem mecanismos de controle, espera-se que uma pessoa infectada com o coronavirus espalhe o mesmo, em média, [para outras três](https://www.uol.com.br/vivabem/noticias/deutsche-welle/2020/05/12/coronavirus-o-que-e-o-numero-de-reproducao-r.htm), chamamos este número de **taxa de reprodução** da doença que proporciona o chamado **crescimento exponencial**. 
 
-Para entender o conceito de **crescimento exponencial** imagine que em um país fictício uma pessoa traga o vírus que contraiu em alguma viagem para o exterior. Essa pessoa, para facilitar, passará o vírus para mais 3 pessoas, totalizando 4 infectados. Cada uma dessa pessoas passaram para mais três, infectando assim mais nove já que 3x3 = 9 = 3². Em números,  temos que a evolução dos novos infectados que segue uma régua parecida com $1, 3, 9, 27, 81, 243, 729...$ ou de forma equivalente $3^0,3^1,3^2,3^3,3^4,3^5,3^6...$ .
+Para entender o conceito de **crescimento exponencial** imagine que em um país fictício uma pessoa traga o vírus que contraiu em alguma viagem para o exterior. Essa pessoa, para facilitar, passará o vírus para mais 3 pessoas, totalizando 4 infectados. Cada uma dessa pessoas passaram para mais três, infectando assim mais nove já que 3x3 = 9 = 3². Em números,  temos que a evolução dos novos infectados que segue uma régua parecida com [$1, 3, 9, 27, 81, 243, 729...$] ou de forma equivalente [$3^0,3^1,3^2,3^3,3^4,3^5,3^6...$].
 
-Se quisermos ver o acumulado dos que já foram infectados podemos fazer $1, 4, 13,  40...$ que equivale à $1, 1+3, 1+3+9, 1+3+9+27...$ ou $3^0, 3^0+3^1, 3^0+3^1+3^2, 3^0+3^1+3^2...$ .
+Se quisermos ver o acumulado dos que já foram infectados podemos fazer [$1, 4, 13,  40...$] que equivale à [$1, 1+3, 1+3+9, 1+3+9+27....$] ou [$3^0, 3^0+3^1, 3^0+3^1+3^2, 3^0+3^1+3^2$]
 
 Suponhamos agora, para facilitar o exemplo, que as infecções sejam diárias (no "mundo real" existe uma janela entre quando a pessoa é infectada e quando passa a transmitir o vírus) e que uma parcela fixa da população morra ao ser infectada. Para facilitar,  que 1% dos infectados em média venham à óbito e que ao invés de uma pessoa contaminar outras três, contaminará duas.
 
@@ -117,6 +117,20 @@ Ou seja, sabemos que o indicador para o **País A** será sempre  $\frac{Óbitos
 O que isso nos diz sobre as taxas de morte por milhão na pandemia? Que são inúteis? De forma alguma! São uma forma indicador importante para sabermos o grau de devastação como proporção da população do país, mas o exercício acima demonstra que não nos dizem necessariamente sobre o desempenho do controle da disseminação da doença uma vez que em todos os países de nosso exemplo foram mortos o mesmo número de indivíduos.
 
 De fato, o esforço das medidas de contenção na pandemia são para reduzir a taxa de reprodutibilidade do vírus e frear a velocidade de disseminação da doença. Medidas de distanciamento social, por exemplo, buscam fazer com que um infectado atinja menos pessoas do que atingiria em média sem essas mesmas medidas. Para frear o crescimento exponencial uma política eficiente de saúde teria de conseguir essa taxa  para um patamar inferior a 1, uma vez que ao multiplicarmos um número menor que um  e maior que zero por si a cada rodada sempre obteremos um valor inferior ao da rodada anterior .
+
+### Causa,  correlação e a discriminação
+
+### Somos naturalmente péssimos em entender números
+
+### Fake news e dados errados
+
+https://piaui.folha.uol.com.br/lupa/2019/11/27/ciro-gomes-canal-livre/
+
+https://piaui.folha.uol.com.br/lupa/2020/04/01/osmar-terra-coronavirus-holanda/
+
+### Em quem acreditar?
+
+### Então, como ler um número?
 
 ### Referências
 
