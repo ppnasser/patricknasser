@@ -62,6 +62,12 @@ Indicadores são ferramentas de análise úteis para que possamos agregar e tent
 
 Entre 2000 e 2018 o Brasil conseguiu reduzir a [mortalidade neonatal](https://data.worldbank.org/indicator/SH.DYN.NMRT) (mortes de crianças até 27 dias após nascerem a cada 1.000 nascimentos) em 56%. Para se ter uma comparação, a Noruega, o país conhecido por ter o [mais elevado grau de desenvolvimento humano em 2019](http://hdr.undp.org/en/content/2019-human-development-index-ranking), performou para o mesmo período uma taxa de 44%. Então, não só conseguimos atingir um patamar de redução da mortalidade neonatal elevadíssimo, como também superamos em performance um país desenvolvido!
 
+```
+gráficos: coloque o celular de lado para melhorar a visualização e interagir 
+```
+
+
+
 {{< plotly-chart 1_reducao_neonatal >}}
 
 Incrível, não? Talvez nem tanto. A Noruega possuía em 2000 uma taxa de 2,7 mortos por 1.000 nascidos vivos. Em 2018 essa taxa era de 1,5, colocando o país em 6º lugar no ranking de menor mortalidade, não tão distante dos primeiros colocados, Japão e São Marino, com o patamar de 0,9.
