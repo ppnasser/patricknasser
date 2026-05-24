@@ -4,18 +4,19 @@
     echo "=== Hugo Blox build ==="
     echo "Hugo version: $(hugo version)"
     echo "Go version:   $(go version || echo 'go not available')"
-    pnpm install --no-frozen-lockfile
+    echo "Node version: $(node --version)"
+    npm install --no-audit --no-fund
     hugo --gc --minify -b $URL
-    pnpm run pagefind
+    npx pagefind --site public
   """
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION    = "0.161.1"
-  GO_VERSION      = "1.21.5"
-  NODE_VERSION    = "22"
-  PNPM_FLAGS      = "--no-frozen-lockfile"
+  HUGO_VERSION       = "0.161.1"
+  GO_VERSION         = "1.21.5"
+  NODE_VERSION       = "22"
   HUGO_ENABLEGITINFO = "true"
+  NPM_FLAGS          = "--no-audit --no-fund"
 
 [context.production.environment]
   HUGO_ENV = "production"
@@ -23,17 +24,17 @@
 [context.deploy-preview]
   command = """
     set -e
-    pnpm install --no-frozen-lockfile
+    npm install --no-audit --no-fund
     hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL
-    pnpm run pagefind
+    npx pagefind --site public
   """
 
 [context.branch-deploy]
   command = """
     set -e
-    pnpm install --no-frozen-lockfile
+    npm install --no-audit --no-fund
     hugo --gc --minify -b $DEPLOY_PRIME_URL
-    pnpm run pagefind
+    npx pagefind --site public
   """
 
 [[headers]]
