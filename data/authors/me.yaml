@@ -37,8 +37,8 @@ education:
     icon: academic-cap
   - degree: BSc in Economics
     institution: University of São Paulo
-    start: "2015-03-01"
-    end: "2019-12-01"
+    start: "2015-03"
+    end: "2019-12"
     summary: "Distinguished Honor Roll — best thesis in Economics."
     icon: academic-cap
 
