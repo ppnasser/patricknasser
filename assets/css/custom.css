@@ -1,0 +1,64 @@
+/* ------------------------------------------------------------------
+ * Site-local overrides for Hugo Blox / Academic CV.
+ * Loaded automatically by site_head.html when assets/css/custom.css exists.
+ * ------------------------------------------------------------------ */
+
+/* Tighten the hero biography block — the upstream sets py-32 on xl
+ * screens which produces a huge gap between the navbar and content.
+ * Keep the hero compact so avatar, name, bio, education, and social
+ * icons all fit above the fold on typical laptop viewports.          */
+.resume-biography {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+@media (min-width: 640px) {
+  .resume-biography {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+}
+@media (min-width: 1024px) {
+  .resume-biography {
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+  }
+}
+
+/* The "Download CV" CTA on /experience/ is rendered inside a markdown
+ * block whose `prose` styles add an underline to anchors. Force the
+ * button to look like a button (no underline, white text).            */
+.cv-cta,
+.cv-cta:hover,
+.cv-cta:focus {
+  text-decoration: none !important;
+  color: #ffffff !important;
+}
+
+/* Center images and GIFs inside blog post bodies — the old Academic
+ * theme centered figure/img by default, but Hugo Blox's Tailwind
+ * `prose` styles leave them left-aligned. Match the previous look.   */
+.prose img,
+.prose figure,
+.prose p > img {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.prose figure > img {
+  margin: 0 auto;
+}
+
+/* Pull the inner blocks (avatar column, bio column) closer together
+ * by halving the vertical rhythm Tailwind adds between them.         */
+.resume-biography .space-y-6 > * + *,
+.resume-biography .space-y-8 > * + *,
+.resume-biography .md\:space-y-8 > * + * {
+  margin-top: 1rem !important;
+}
+
+/* Pull subsequent page sections closer together — the blox section
+ * wrapper defaults to ~5rem top/bottom in "comfortable" spacing.       */
+section.hbb-section {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}

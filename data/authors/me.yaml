@@ -1,0 +1,202 @@
+# Author profile for the resume-biography-3 / resume-experience / resume-skills
+# / resume-awards / resume-languages blocks.
+#
+# Data is read by `partial "functions/get_author_profile"` in Hugo Blox.
+
+title: Patrick Parente Nasser
+name:
+  display: Patrick Parente Nasser
+  given: Patrick
+  middle: Parente
+  family: Nasser
+role: Data Scientist
+is_owner: true
+superuser: true
+
+bio: >-
+  Data Scientist blending statistics, economics, and AI to drive
+  product and growth decisions.
+
+#affiliations:
+#  - name: QuintoAndar
+#    url: "https://www.quintoandar.com.br"
+
+interests:
+  - Time Series Modeling
+  - Causal Inference
+  - AI Agents & LLMs
+  - Growth & Marketplace Analytics
+  - Public Policy & Economics
+
+education:
+  - degree: MSc in Statistics
+    institution: University of São Paulo
+    start: "2023-03"
+    end: "2026-03"
+    summary: "Thesis field: Time Series Modeling."
+    icon: academic-cap
+  - degree: BSc in Economics
+    institution: University of São Paulo
+    start: "2015-03-01"
+    end: "2019-12-01"
+    summary: "Distinguished Honor Roll — best thesis in Economics."
+    icon: academic-cap
+
+experience:
+  - role: Senior Data Scientist · Growth · Tech
+    org: QuintoAndar
+    start: "2025-05-01"
+    end: "2026-05-01"
+    icon: briefcase
+    tags: [Python, LLMs, Growth, Marketplace]
+    summary: |-
+      Housing sales and retail platform.
+
+      - Built agentic AI capabilities (LLM-as-a-judge, skills, tools) across client-side chatbots and the company's internal BI tools.
+      - Planned and executed a comprehensive data strategy — data modeling, monitoring frameworks, and predictive algorithms — to detect bypass attempts, fraud, and data leakage across critical channels handling PII.
+      - Designed scalable data models for the marketplace initiative, keeping product requirements and analytics capabilities aligned.
+  - role: Data Analyst · Growth Sales · Wholesale Banking
+    org: Itaú BBA
+    start: "2021-09-01"
+    end: "2025-04-01"
+    icon: briefcase
+    tags: [SQL, Salesforce, CRM, Wholesale Banking]
+    summary: |-
+      Wholesale banking arm of Latin America's largest bank.
+
+      - Generated over **R$1.5B in revenue** by leading client acquisition for Itaú's wholesale bank, partnering with technology and commercial teams to ship custom Salesforce tooling.
+      - Engineered and rolled out the **Customer Engagement Score** and other key CRM metrics, aligning business growth with value propositions across diverse financial products.
+      - Established a data-driven culture through workflow automation and data democratization — empowering strategic decisions with actionable analytics.
+  - role: Economic Data Scientist · Public Sector · Consultancy
+    org: FIPE / Secretary of Economic Development of the State of São Paulo
+    start: "2020-02-01"
+    end: "2021-08-01"
+    icon: briefcase
+    tags: [Economics, Public Policy, Dashboards]
+    summary: |-
+      Economic research institute consulting the public sector.
+
+      - Translated complex economic data into clear, concise reports for policy makers.
+      - Generated actionable economic insights that directly informed public-policy decisions during the 2020 pandemic.
+      - Built and deployed data pipelines and dashboards on public databases to deliver conjunctural analyses of Brazil and São Paulo's economic landscape.
+      - Contributed studies that fed into the **Economic Development Plan** of Brazil's largest state.
+
+skills:
+  - name: Programming & Data
+    color: "#0ea5e9"
+    color_border: "#0284c7"
+    items:
+      - name: Python
+        icon: code-bracket
+        level: 5
+      - name: SQL
+        icon: circle-stack
+        level: 5
+      - name: Stata
+        icon: chart-bar
+        level: 5
+      - name: Excel / VBA
+        icon: table-cells
+        level: 5
+      - name: R
+        icon: presentation-chart-line
+        level: 3
+      - name: Power BI
+        icon: chart-pie
+        level: 3
+      - name: C
+        icon: command-line
+        level: 2
+      - name: QGIS / ArcGIS
+        icon: map
+        level: 2
+  - name: Strengths
+    color: "#10b981"
+    color_border: "#059669"
+    items:
+      - name: Strategic Thinking
+        icon: light-bulb
+        level: 5
+      - name: Storytelling with Data
+        icon: chat-bubble-left-right
+        level: 5
+      - name: Cross-Functional Collaboration
+        icon: users
+        level: 5
+      - name: Problem Solving
+        icon: puzzle-piece
+        level: 5
+      - name: Leadership
+        icon: user-circle
+        level: 5
+
+awards:
+  - title: Introduction to LLM
+    awarder: Institute of Mathematics and Statistics — University of São Paulo
+    date: "2026-01-01"
+    icon: document-check
+  - title: Associate Data Scientist
+    awarder: Itaú
+    date: "2023-01-01"
+    icon: document-check
+  - title: "Causal Diagrams: Draw Your Assumptions Before Your Conclusions"
+    awarder: HarvardX
+    date: "2022-01-01"
+    icon: document-check
+  - title: Article Presentation
+    awarder: 13th World Congress of the Regional Science Association International
+    date: "2021-05-01"
+    icon: microphone
+  - title: Data Analysis for Social Scientists
+    awarder: MITx
+    date: "2021-01-01"
+    icon: document-check
+  - title: Data Publishers
+    awarder: Open Knowledge
+    date: "2021-01-01"
+    icon: document-check
+  - title: Distinguished Honor Roll — Best Thesis in Economics
+    awarder: University of São Paulo
+    date: "2019-12-01"
+    icon: trophy
+  - title: 3rd Place — Brazilian Econometrics Games
+    awarder: Brazilian Econometrics Games
+    date: "2018-10-01"
+    icon: trophy
+  - title: Workshop "Python for Spatial Analysis"
+    awarder: Latin American and Caribbean Regional Science Association Congress
+    date: "2017-10-01"
+    icon: microphone
+  - title: Introduction to Programming in C
+    awarder: Institute of Mathematics and Statistics — University of São Paulo
+    date: "2016-01-01"
+    icon: document-check
+  - title: Member of São Paulo's Sustainable Development Goals Group
+    awarder: SDGs São Paulo / UNDP
+    date: "2015-01-01"
+    icon: globe-alt
+
+languages:
+  - name: Portuguese
+    level: 5
+    label: Native
+  - name: English
+    level: 4.5
+    label: Advanced
+  - name: Spanish
+    level: 3
+    label: Intermediate
+
+links:
+  - name: Email
+    icon: hero/envelope
+    url: "mailto:patricknasser@gmail.com"
+  - name: LinkedIn
+    icon: brands/linkedin
+    url: "https://www.linkedin.com/in/patrick-p-nasser/"
+  - name: GitHub
+    icon: brands/github
+    url: "https://github.com/ppnasser"
+  - name: CV
+    icon: academicons/cv
+    url: "uploads/cv.pdf"

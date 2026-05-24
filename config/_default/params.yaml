@@ -1,0 +1,144 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# HUGO BLOX CONFIGURATION
+# Docs: https://docs.hugoblox.com/
+# ══════════════════════════════════════════════════════════════════════════════
+hugoblox:
+  schema: "2.0"
+
+  identity:
+    name: "Patrick Nasser"
+    organization: "Patrick Nasser"
+    type: person
+    tagline: "Senior Data Scientist · Statistics · Economics · AI"
+    description: "Patrick Nasser — Senior Data Scientist blending statistics, economics, and AI to drive product and growth decisions."
+    social:
+      twitter: ""
+
+  theme:
+    mode: system
+    pack: "default"
+    colors:
+      primary: "indigo"
+      secondary: "slate"
+      neutral: ""
+    colors_light: {}
+    colors_dark: {}
+    surfaces:
+      background: ""
+      foreground: ""
+      header:
+        background: ""
+        foreground: ""
+      footer:
+        background: ""
+        foreground: ""
+
+  typography:
+    pack: "academic"
+
+  layout:
+    radius: "md"
+    spacing: "comfortable"
+    avatar_shape: circle
+
+  header:
+    enable: true
+    style: navbar
+    sticky: true
+    align: center
+    search: true
+    theme_toggle: true
+    theme_picker: false
+    language_switcher: false
+    cta:
+      enable: false
+      text: ""
+      url: ""
+
+  footer:
+    style: minimal
+    language_switcher: false
+    text: "© {year} Patrick Nasser · Built with Hugo Blox"
+
+  copyright:
+    notice: "© {year} {name}"
+    license:
+      type: custom
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
+
+  seo:
+    title: "Patrick Nasser"
+    location:
+      address:
+        street: ""
+        city: "São Paulo"
+        region: "SP"
+        postal_code: ""
+        country: "Brazil"
+      coordinates:
+        latitude: null
+        longitude: null
+      phone: ""
+    ai:
+      allow:
+        - /
+      disallow: []
+      note: "Public personal site — content is intended to be discoverable."
+      contact: "patricknasser@gmail.com"
+
+  content:
+    math:
+      enable: true
+    toc:
+      enable: true
+    reading_time:
+      enable: true
+    citations:
+      style: apa
+
+  search:
+    enable: true
+    suggestions: []
+    quick_actions: []
+
+  comments:
+    enable: false
+    provider: ""
+
+  analytics:
+    google:
+      measurement_id: ""
+
+  verification:
+    google: ""
+
+  repository:
+    enable: false
+    url: ""
+    branch: master
+    content_dir: content
+
+  locale:
+    date_format: "Jan 2, 2006"
+    time_format: "3:04 PM"
+    address_format: en-us
+
+  security:
+    csp:
+      policy: ""
+      report_only: false
+    frame_options: sameorigin
+    permissions_policy: ""
+
+  privacy:
+    enable: false
+    anonymize_analytics: true
+
+  debug:
+    enable: false
+
+  pro:
+    hide_attribution: false
+    affiliate_code: ""
