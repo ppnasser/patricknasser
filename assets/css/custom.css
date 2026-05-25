@@ -48,6 +48,22 @@
   margin: 0 auto;
 }
 
+/* Make inline-code comments inside fenced code blocks readable.
+ * Chroma tags single-line `#` comments with `.c1` and multi-line
+ * comments with `.cm`. Default theme renders them faint italic
+ * gray, which gets lost against the dark code background.            */
+.prose .chroma .c,
+.prose .chroma .c1,
+.prose .chroma .cm,
+.prose .chroma .cs,
+.prose pre code .c,
+.prose pre code .c1,
+.prose pre code .cm {
+  color: #a3e635 !important;       /* lime-400, high contrast */
+  font-weight: 600 !important;
+  font-style: normal !important;
+}
+
 /* Pull the inner blocks (avatar column, bio column) closer together
  * by halving the vertical rhythm Tailwind adds between them.         */
 .resume-biography .space-y-6 > * + *,
