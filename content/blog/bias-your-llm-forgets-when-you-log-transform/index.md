@@ -1,7 +1,7 @@
 ---
 title: "The bias your LLM forgets when you log-transform"
-subtitle: "Jensen's inequality, the research–practice gap, and why SKILL files matter."
-summary: "Fit a regression on log Y, exponentiate the prediction back, and you've quietly introduced a Jensen-inequality bias. Every codebase I've seen ignores it — and LLMs cheerfully reproduce the habit. A note on the research–practice gap and how shared SKILL files can close it."
+subtitle: "Jensen's inequality, the knowledge–practice gap, and why SKILL files matter."
+summary: "Fit a regression on log Y, exponentiate the prediction back, and you've quietly introduced a Jensen-inequality bias. Every codebase I've seen ignores it — and LLMs cheerfully reproduce the habit. A note on the knowledge–practice gap and how shared SKILL files can close it."
 authors:
   - me
 tags:
@@ -24,11 +24,11 @@ image:
   preview_only: false
 ---
 
-> **TL;DR.** When you fit a regression on $\ln Y$ and exponentiate the prediction back, you get a biased estimate of $Y$ — Jensen's inequality says so. It's a small detail nobody enforces, every codebase I've seen ignores it, and LLMs cheerfully reproduce that habit by default. The problem isn't math, it's the research–practice gap, and the way out is shared context (SKILL files, open-source patterns) that bridges domains the model doesn't know to consult.
+> **TL;DR.** When you fit a regression on $\ln Y$ and exponentiate the prediction back, you get a biased estimate of $Y$ — Jensen's inequality says so. It's a small detail nobody enforces, every codebase I've seen ignores it, and LLMs cheerfully reproduce that habit by default. The problem isn't math, it's the knowledge–practice gap, and the way out is shared context (SKILL files, open-source patterns) that bridges domains the model doesn't know to consult.
 
-## The research–practice gap, amplified
+## The knowledge–practice gap, amplified
 
-This is a consistent mistake I keep running into while vibe coding common data science problems, and it made me realize how much current LLMs amplify the **knowledge–practice gap** — the distance between what is *known* in a field and what is actually *done* day to day.
+This is a consistent mistake I keep running into while vibe coding common data science problems, and it made me realize how much current LLMs amplify the **knowledge–practice gap** — the distance between what is _known_ in a field and what is actually _done_ day to day.
 
 When training, labs like Anthropic and OpenAI weight their data sources by credibility so the model produces better predictions. Weighting is fragile, though, and that fragility shows up the moment you ask a token-prediction machine to do something where a field's consensus and a field's practice disagree. I see it most clearly with **big numbers**.
 
@@ -107,4 +107,4 @@ I don't think there's a clean fix. This is an **epistemic** problem about how we
 
 As an open-source advocate I think this gets solved through community, not by labs alone. SKILL files are popping up in different repos every day. Use them. Enhance them. Make sure the AI you're working with has the best context you can give it.
 
-Speeding up the easy stuff is revolutionary. But there's still an opportunity to *close* the research–practice gap, not widen it — and that's where the real social win is right now.
+Speeding up the easy stuff is revolutionary. But there's still an opportunity to _close_ the knowledge–practice gap, not widen it — and that's where the real social win is right now.
